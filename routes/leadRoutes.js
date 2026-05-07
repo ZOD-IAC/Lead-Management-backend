@@ -1,6 +1,6 @@
 const express = require("express");
 const multer = require("multer");
-const Lead = require("../models/Lead");
+const Lead = require("../models/lead");
 const userModel = require("../models/user");
 const { checkRole } = require("../middleware/isLoggedIn");
 const router = express.Router();
